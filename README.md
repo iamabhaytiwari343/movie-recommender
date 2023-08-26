@@ -12,12 +12,5 @@ Why it is used here ?
 
 we are using this method to convert the tags for a movie into vectors whoose similiarity-score can be used for movie recommendation.
 
-What else used ?
+ast.literal_eval() is a function provided by the ast (Abstract Syntax Trees) module in Python. This function is used to safely evaluate a string containing a Python literal or container display, like a dictionary, list, tuple, set, or basic data types like strings, numbers, booleans, and None. It's commonly used to convert a string representation of a literal into the corresponding Python object.The main advantage of ast.literal_eval() over other evaluation methods like eval() is that it is safer. It only evaluates literals and not arbitrary code, which helps prevent code injection and security vulnerabilities.
 
-ast module in python
-
-why?
-
-The ast module helps Python applications to process trees of the Python abstract syntax grammar. The abstract syntax itself might change with each Python release; this module helps to find out programmatically what the current grammar looks like.
-
-it is used for processing data and designing functions that can be used for converting data in column of movies dataframe that is in the form of dictionary to the data in form of list.
